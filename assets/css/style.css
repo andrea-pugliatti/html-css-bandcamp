@@ -120,7 +120,6 @@ nav {
 	}
 
 	a:hover {
-		color: var(--band-txt-secondary);
 		text-decoration: underline;
 	}
 }
@@ -156,6 +155,29 @@ nav {
 .card {
     width: calc(100% / 4 - 1rem);
     
+    .img-container {
+        position: relative;
+
+        &:hover i {
+            display: block;
+        }
+    }
+
+    .img-container i {
+        display: none;
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        color: var(--band-txt-primary);
+        background-color: var(--band-bg-primary);
+        padding: .9rem 1.8em .9rem 1rem;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: var(--band-bg-secondary);
+        }
+    }
+
     img {
         border: 1px solid var(--band-highlight);
     }
