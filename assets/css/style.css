@@ -34,6 +34,7 @@ header {
 .wrapper {
 	height: calc(100vh - 120px - 1rem);
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .d-flex-r {
@@ -58,6 +59,24 @@ header {
 
 .gap-1 {
 	gap: 1rem;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    color: var(--band-txt-primary);
+    text-decoration: none;
+    padding: .7rem 2rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    color: var(--band-bg-primary);
+    background-color: var(--band-txt-primary);
+}
+
+.btn-outline {
+    border: 1px solid var(--band-txt-primary);
 }
 
 /* Header */
@@ -143,7 +162,34 @@ nav {
 /* Side player */
 .right {
     border-left: 1px solid var(--band-highlight);
+    
     img {
+        border: 1px solid var(--band-highlight);
+    }
 
+    .img-container {
+        margin-bottom: 2rem;
+    }
+
+    .play-button {
+        padding: 1rem;
+        font-size: 2rem;
+        border-radius: 50%;
+        margin-right: 1rem;
+        color: var(--band-bg-primary);
+        background-color: var(--band-txt-primary);
+    }
+
+    .player-title,
+    .player-album,
+    .player-author {
+        color: var(--band-txt-primary);
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+
+    a {
+        width: 100%;
+        margin-top: 1rem;
     }
 }
