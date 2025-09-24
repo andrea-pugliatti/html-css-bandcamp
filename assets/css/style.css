@@ -91,7 +91,7 @@ button {
 	border: 1px solid var(--band-txt-primary);
 }
 
-/* Header */
+/* Search box */
 label i {
 	position: absolute;
 	font-size: 0.9rem;
@@ -109,6 +109,7 @@ label i {
 	background-color: var(--band-highlight);
 }
 
+/* Header */
 .top-header {
 	height: 60px;
 	padding: 0 1rem;
@@ -290,6 +291,7 @@ ul {
 	}
 }
 
+/* Tablet mode */
 @media screen and (max-width: 900px) {
 	.card {
 		width: calc(100% / 3 - 1rem);
@@ -308,6 +310,7 @@ ul {
 	}
 }
 
+/* Mobile mode */
 @media screen and (max-width: 600px) {
 	img.desktop {
 		display: none;
