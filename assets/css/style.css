@@ -26,7 +26,6 @@ img {
 }
 
 header {
-    height: 120px;
 	background-color: var(--band-bg-primary);
 }
 
@@ -113,10 +112,16 @@ img.mobile {
     display: none;
 }
 
-nav {
-	li {
+ul {    
+    li {
 		list-style: none;
+        align-content: center;
+        padding: 1rem;
 	}
+
+    li:hover {
+        background-color: var(--band-highlight);
+    }
 
     li.search {
         display: none;
@@ -125,10 +130,6 @@ nav {
 	a {
 		text-decoration: none;
 		color: var(--band-txt-primary);
-	}
-
-	a:hover {
-		text-decoration: underline;
 	}
 }
 
@@ -309,7 +310,7 @@ nav {
         display: block;
     }
     
-    nav li.search {
+    ul li.search {
         display: block;
     }
 
