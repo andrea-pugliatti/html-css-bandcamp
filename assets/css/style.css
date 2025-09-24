@@ -59,7 +59,7 @@ header {
     .logo-container {
     }
 
-    [type="search"] {
+    [type="text"] {
         width: 20vw;
         padding: .5rem 2rem;
         border: 0;
@@ -82,5 +82,20 @@ nav {
     a:hover {
         color: var(--band-txt-secondary);
         text-decoration: underline;
+    }
+}
+
+.bottom-header {
+    width: 100%;
+    background-color: var(--band-bg-secondary);
+    padding: 1rem;
+
+    [type="text"] {
+        width: 30vw;
+        padding: .5rem 2rem;
+        border: 1px solid var(--band-txt-secondary);
+        border-radius: 20px;
+        color: var(--band-txt-secondary);
+        background-color: var(--band-highlight);
     }
 }

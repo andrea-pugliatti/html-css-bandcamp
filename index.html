@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandcamp</title>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="padding-1">
-            <div class="top-header d-flex-r justify-space-between align-center">
+        <header >
+            <div class="top-header d-flex-r justify-space-between align-center padding-1">
                 <div class="d-flex-r gap-1">
                     <div class="logo-container">
                         <img src="./assets/img/logo.jpeg" alt="Bandcamp">
                     </div>
-                    <input type="search" name="search-bar" placeholder="Search and discover music"></input>
+                    <input type="text" name="search-bar" placeholder="Search and discover music"></input>
                 </div>
 
                 <nav>
@@ -32,7 +35,7 @@
                 </nav>
             </div>
             <div class="bottom-header">
-                <div class="filters"></div>
+                    <input type="text" name="filters" placeholder="Add a genre, location or tag"></input>
             </div>
         </header>
 
