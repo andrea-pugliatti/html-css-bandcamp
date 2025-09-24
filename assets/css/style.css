@@ -122,6 +122,10 @@ nav {
     width: calc(100% / 4);
     padding: .5rem;
 
+    img {
+        border: 1px solid var(--band-highlight);
+    }
+
     .card-title,
     .card-author,
     .card-genre {
