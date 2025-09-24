@@ -7,40 +7,42 @@
     <title>Bandcamp</title>
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <header >
-            <div class="top-header d-flex-r justify-space-between align-center">
-                <div class="d-flex-r gap-1">
-                    <div class="logo-container">
-                        <img src="./assets/img/logo.jpeg" alt="Bandcamp">
-                    </div>
-                    <input type="text" name="search-bar" placeholder="Search and discover music"></input>
+    <header>
+        <div class="top-header d-flex-r justify-space-between align-center">
+            <div class="d-flex-r gap-1">
+                <div class="logo-container">
+                    <img src="./assets/img/logo.jpeg" alt="Bandcamp">
                 </div>
+                <input type="text" name="search-bar" placeholder="Search and discover music"></input>
+            </div>
 
-                <nav>
-                    <ul class="d-flex-r gap-1">
-                        <li>
-                            <a href="#">Sign up</a>
-                        </li>
-                        <li>
-                            <a href="#">Log in</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="bottom-header">
-                    <input type="text" name="filters" placeholder="Add a genre, location or tag"></input>
-            </div>
-        </header>
+            <nav>
+                <ul class="d-flex-r gap-1">
+                    <li>
+                        <a href="#">Sign up</a>
+                    </li>
+                    <li>
+                        <a href="#">Log in</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="bottom-header">
+            <input type="text" name="filters" placeholder="Add a genre, location or tag"></input>
+        </div>
+    </header>
 
         <main class="d-flex-r">
-            <div class="left d-flex-r">
+            <div class="left wrapper d-flex-r wrap padding-1">
                 <div class="card">
                     <div class="img-container">
                         <img src="./assets/img/a2734007037_2.jpg" alt="">
@@ -148,10 +150,8 @@
                     <div class="card-genre">rock</div>
                 </div>
             </div>
-            <div class="right"></div>
+            <div class="right wrapper padding-1"></div>
         </main>
-
-    </div>
 
 </body>
 

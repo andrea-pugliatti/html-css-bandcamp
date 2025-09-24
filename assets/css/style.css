@@ -26,12 +26,14 @@ img {
 }
 
 header {
+    height: 120px;
 	background-color: var(--band-bg-primary);
 }
 
 /* Utilities */
 .wrapper {
-	height: 100vh;
+	height: calc(100vh - 120px);
+    overflow-y: auto;
 }
 
 .d-flex-r {
@@ -48,6 +50,10 @@ header {
 
 .align-center {
 	align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .gap-1 {
@@ -105,13 +111,10 @@ nav {
 /* Main content */
 .left {
     width: 70%;
-    padding: 1rem;
-    flex-wrap: wrap;
 }
 
 .right {
     width: 30%;
-    padding: 1rem;
 }
 
 /* Card */
