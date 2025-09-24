@@ -16,11 +16,16 @@
 
 /* Common */
 body {
+    background-color: var(--band-bg-primary);
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 header {
-	height: 110px;
 	background-color: var(--band-bg-primary);
 }
 
@@ -64,6 +69,7 @@ header {
 }
 
 .top-header {
+    padding: .8rem 2rem;
 	.logo-container {
 	}
 }
@@ -87,11 +93,40 @@ nav {
 .bottom-header {
 	width: 100%;
 	background-color: var(--band-bg-secondary);
-	padding: 1rem;
+    padding: .8rem 2rem;
 
 	[type="text"] {
 		width: 30vw;
 		border: 1px solid var(--band-txt-secondary);
 		border-radius: 20px;
 	}
+}
+
+/* Main content */
+.left {
+    width: 70%;
+    padding: 1rem;
+}
+
+.right {
+    width: 30%;
+    padding: 1rem;
+}
+
+/* Card */
+.card {
+    width: calc(100% / 4);
+
+    .card-title,
+    .card-author,
+    .card-genre {
+        color: var(--band-txt-primary);
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+
+    .card-genre {
+        font-size: .8rem;
+        color: var(--band-txt-secondary);
+    }
 }
