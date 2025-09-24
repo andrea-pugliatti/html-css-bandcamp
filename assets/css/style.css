@@ -106,6 +106,7 @@ nav {
 .left {
     width: 70%;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .right {
@@ -116,6 +117,7 @@ nav {
 /* Card */
 .card {
     width: calc(100% / 4);
+    padding: .5rem;
 
     .card-title,
     .card-author,
