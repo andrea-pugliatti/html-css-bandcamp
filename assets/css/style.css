@@ -68,6 +68,10 @@ header {
     text-decoration: none;
     padding: .7rem 2rem;
     border-radius: 5px;
+    
+    &:hover {
+        background-color: var(--band-txt-secondary);
+    }
 }
 
 .btn-primary {
@@ -181,7 +185,6 @@ nav {
 
         &:hover {
             background-color: var(--band-bg-secondary);
-            transition: .2s;
         }
     }
 
@@ -222,6 +225,11 @@ nav {
         margin-right: 1rem;
         color: var(--band-bg-primary);
         background-color: var(--band-txt-primary);
+        
+        &:hover {
+            cursor: pointer;
+            background-color: var(--band-txt-secondary);
+        }
     }
 
     .player-title,
