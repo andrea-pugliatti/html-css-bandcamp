@@ -40,6 +40,11 @@ button {
     overflow-x: hidden;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .d-flex-r {
 	display: flex;
 }
@@ -96,7 +101,8 @@ label i {
 
 [type="text"] {
 	width: 30vw;
-	padding: 0.5rem 2.5rem;
+    max-width: 500px;
+	padding: 0.5rem .3rem 0.5rem 2.5rem;
 	border: 0;
 	border-radius: 3px;
 	color: var(--band-txt-secondary);
@@ -138,6 +144,10 @@ ul {
 	background-color: var(--band-bg-secondary);
     height: 60px;
     padding: .85rem 1rem;
+
+    label {
+        margin-left: 1rem;
+    }
 
 	[type="text"] {
 		width: 40vw;
@@ -319,7 +329,8 @@ ul {
     }
     
     .bottom-header [type="text"] {
-        width: 92vw;
+        width: 95vw;
+        max-width: 600px;
     }
 
     .left {
