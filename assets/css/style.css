@@ -80,9 +80,16 @@ header {
 }
 
 /* Header */
+label i {
+    position: absolute;
+    font-size: .9rem;
+    padding: .6rem .9rem;
+    color: var(--band-txt-secondary);
+}
+
 [type="text"] {
 	width: 30vw;
-	padding: 0.5rem 2rem;
+	padding: 0.5rem 2.5rem;
 	border: 0;
 	border-radius: 3px;
 	color: var(--band-txt-secondary);
@@ -222,7 +229,7 @@ nav {
         display: block;
     }
 
-    .top-header [type="text"] {
+    .top-header label {
         display: none;
     }
     
