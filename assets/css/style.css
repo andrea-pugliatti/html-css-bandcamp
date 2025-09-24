@@ -32,7 +32,7 @@ header {
 
 /* Utilities */
 .wrapper {
-	height: calc(100vh - 120px - 1rem);
+	height: calc(100vh - 120px - 1px);
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -90,8 +90,9 @@ header {
 }
 
 .top-header {
-    padding: .8rem 2rem;
-	.logo-container {
+    height: 60px;
+    padding: 0 1rem;
+    .logo-container {
 	}
 }
 
@@ -114,7 +115,8 @@ nav {
 .bottom-header {
 	width: 100%;
 	background-color: var(--band-bg-secondary);
-    padding: .8rem 2rem;
+    height: 60px;
+    padding: .85rem 1rem;
 
 	[type="text"] {
 		width: 30vw;
