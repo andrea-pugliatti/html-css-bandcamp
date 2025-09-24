@@ -279,6 +279,20 @@ nav {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .card {
+        width: calc(100% / 3 - 1rem);
+    }
+
+    .right .quote,
+    .follow,
+    .band-container {
+        display: none;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
     .card {
         width: calc(100% / 2 - 1rem);
