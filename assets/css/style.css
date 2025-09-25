@@ -72,6 +72,7 @@ button {
 	border-radius: 5px;
 
 	&:hover {
+		text-decoration: underline;
 		background-color: var(--band-txt-secondary);
 	}
 }
@@ -121,6 +122,9 @@ ul {
 	}
 
 	li:hover {
+		cursor: pointer;
+		color: var(--band-txt-primary);
+		text-decoration: underline;
 		background-color: var(--band-highlight);
 	}
 
@@ -286,6 +290,10 @@ ul {
 	& > a {
 		width: 100%;
 		margin-top: 1rem;
+	}
+	
+	& > a i {
+		margin-right: 5px;
 	}
 }
 
