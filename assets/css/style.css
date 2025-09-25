@@ -300,7 +300,7 @@ ul {
 
 /* Modal */
 .modal {
-	background-color: var(--band-bg-primary);	
+	background-color: var(--band-bg-primary);
 	border: 1px solid var(--band-highlight);
 	box-shadow: 0px 0px 200px 100px var(--band-bg-primary);
 	top: calc(50% - 25vh);
@@ -312,7 +312,7 @@ ul {
 	width: max(40vw, 400px);
 	background-color: var(--band-highlight);
 	color: var(--band-txt-primary);
-	font-size: .9rem;
+	font-size: 0.9rem;
 	text-align: start;
 	line-height: 1.5rem;
 	padding: 2rem;
