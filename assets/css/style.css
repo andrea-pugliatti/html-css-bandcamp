@@ -164,8 +164,9 @@ ul {
 	gap: 1rem;
 }
 
-.right {
-	width: 30%;
+.divider {
+	margin-top: 1rem;
+	border-left: 1px solid var(--band-highlight);
 }
 
 /* Card */
@@ -221,8 +222,8 @@ ul {
 
 /* Side player */
 .right {
-	border-left: 1px solid var(--band-highlight);
-
+	width: 30%;
+	
 	img {
 		border: 1px solid var(--band-highlight);
 	}
@@ -295,6 +296,7 @@ ul {
 	}
 
 	.right .quote,
+	.divider,
 	.follow,
 	.band-container {
 		display: none;
