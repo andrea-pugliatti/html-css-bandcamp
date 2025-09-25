@@ -347,3 +347,14 @@ ul {
 		display: none;
 	}
 }
+
+/* Scrollbar */
+.left::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+	display: none;
+}
+
+.left,
+.right {
+	scrollbar-width: none;
+}
