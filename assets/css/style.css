@@ -297,6 +297,17 @@ ul {
 	}
 }
 
+/* Scrollbar */
+.left::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+	display: none;
+}
+
+.left,
+.right {
+	scrollbar-width: none;
+}
+
 /* Tablet mode */
 @media screen and (max-width: 900px) {
 	.card {
@@ -346,15 +357,4 @@ ul {
 	.right {
 		display: none;
 	}
-}
-
-/* Scrollbar */
-.left::-webkit-scrollbar,
-.right::-webkit-scrollbar {
-	display: none;
-}
-
-.left,
-.right {
-	scrollbar-width: none;
 }
