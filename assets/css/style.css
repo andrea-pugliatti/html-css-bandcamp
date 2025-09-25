@@ -223,7 +223,7 @@ ul {
 /* Side player */
 .right {
 	width: 30%;
-	
+
 	img {
 		border: 1px solid var(--band-highlight);
 	}
